@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: 'Gelasio', serif;
+  text-align: center;
+}
+
+
+p {
+  color: white;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Gotu', sans-serif;
+  font-size: 15rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+    color: #66bfbf;
+}
+
+h3{
+    color: #66bfbf;
+}
+
+h4{
+  color: #66bfbf;
+}
+
+h6{
+  margin-top: 3%;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(143, 159, 159);
+}
+hr{
+  margin: 50px auto;
+
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+}
+
+a{
+  color: #e6f9ff;
+  margin: 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: grey;
+}
+
+
+/* .classNames */
+
+/* Header */
+
+.sam{
+
+  background: url('https://media2.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.webp?cid=790b7611fd9e4e2640df8ae0aed71ddec97106507775aed2&rid=giphy.webp') ;
+  height: 30%;
+  width: auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+ 
+}
+
+
+
+/* portfolio */
+.img-hover{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity: 0;
+  top: 0;
+  left: 4%;
+}
+
+.img-hover:hover{
+  opacity: 1;
+  box-shadow: 0px 0px 30px 10px #7d838397;
+}
+
+.port-img{
+ height: 300px;
+ width: 500px;
+  opacity: 1;
+}
+
+.port-img:hover{
+  opacity: 0;
+}
+
+.port-imgs {
+  position: relative;
+
+}
+
+/* Middle stuff */
+
+
+.middle-container{
+
+    margin-top: 100px;
+}
+
+.boy{
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  
+  background: url("../images/boy.png") no-repeat center center;
+}
+
+.boy:hover{
+  background: url("../images/boy2.png") no-repeat center center;
+} 
+
+/* skills */
+
+.skill-row {
+
+  margin: 50px auto 50px;
+  text-align: left;
+  width: 60%;
+  line-height: 1.5;
+}
+
+.skill-text{
+  display: inline-block;
+ 
+}
+
+.skills{
+  margin-bottom: 200px;
+  
+}
+
+.profile-box{
+  
+  height: 400px;
+  width: auto;
+}
+
+.simpsons-gif {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 150px;
+  
+}
+
+.ios{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.phone-img {
+  width: 30%;
+  height: 30%;
+  float: right;
+ 
+
+}
+
+.top-container {
+  color: #e6f9ff;
+  position: relative;
+  margin: 18%;
+ 
+  
+}
+
+/* ../gif-lightning.gif */
+.bg-img {
+  /* background-image: url("../star-bg.gif"); */
+  background: linear-gradient( rgb(255, 255, 255), black);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+
+
+/* footer */
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#66bfbf;
+	border-radius:6px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-bottom: 20px;
+}
+.btn:hover {
+	background-color:#757ed6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0px 20px;
+}
+
+.copyright{
+  margin: 10px;
+  font-size: 10%;
+}
+
+
+
+
